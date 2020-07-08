@@ -17,7 +17,7 @@ int main(){
 	}
 	for(i=0; i<n; i++){
 		if(cnt[i]>max){
-			max=arr[i];
+			max=cnt[i];
 			pos=i;
 		}
 	}
