@@ -32,10 +32,10 @@ void deqeue(){
 }
 
 int main(void) {
-  int i;
+  int i, n;
   for(i=0; i<size; i++){
-    scanf("%d", &q[i]);
-    pos++;
+    scanf("%d", &n);
+    enqeue(n);
   }
   printf("\n\nOriginal Input Array : ");
   for(i=0; i<size; i++){
