@@ -49,7 +49,7 @@ int main(){
 			printf("\n\n");
 		}
 		else if(ch==2){
-			printf("\n\nElement at last position has been dequeued\n\n");
+			printf("\n\nElement at first position has been dequeued\n\n");
 			deque();
 		}
 		else if(ch==3){
